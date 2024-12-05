@@ -1,0 +1,51 @@
+@font-face {
+    font-family: digital;
+    src: url(../fonts/Digital\ Dismay.otf);
+}
+
+
+
+body{
+    background-color: #fffffe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    
+ }
+
+
+
+.border{
+    position: absolute;
+    bottom: 270px;
+    width: auto;
+    height: auto;
+    padding: 30px  10px;
+    background-color:white;
+ display: flex;
+ justify-content: center;  
+ gap: 10px;
+ align-items: center;
+  border-radius: 10px;
+  font-size: 70px;
+  color: gray;
+  font-family: digital;
+  border: 3px solid white;
+  
+
+}
+
+
+#ampm{
+    padding-left: 20px;
+    color: gray;
+}
+/* #hour,#mins,#seconds{
+    background-color: white;
+    
+} */
+ #hour,#mins,#seconds,#ampm{
+    font-size: 70px;
+ }
